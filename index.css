@@ -34,6 +34,7 @@ float:left;
 
 .topnav .icon {
   display: none;
+  color:white;
 }
 
 @media screen and (max-width: 600px) {
