@@ -40,10 +40,10 @@ float:left;
 
 @media screen and (max-width: 600px){
 
-    ul.topnav li {float:none;
+    ul.topnav li {float:left;
 }
 .logo{
-padding:0px;
+padding-right:270px;
 }
 }
 .home{
