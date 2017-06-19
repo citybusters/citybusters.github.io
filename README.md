@@ -17,5 +17,5 @@ Send us your suggestions and share your cool ideas that you would like to see on
 If you like our website please **star** our github page.
 
 ## Want to contribute
-If you would like to add a feature or suggest something, please follow our guidelines on contributing.md
+If you would like to add a feature or suggest something, please follow our guidelines [here](CONTRIBUTING.md)
 
