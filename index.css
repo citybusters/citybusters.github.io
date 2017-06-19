@@ -37,13 +37,24 @@ float:left;
    font-size:40px;
  
 }
-
+.con{
+padding-right:0px;}
 @media screen and (max-width: 600px){
 
     ul.topnav li {float:left;
 }
+.con{
+padding:10px 10px;
+}
+
+.gal{
+padding:10px 10px;
+}
+.active{
+margin:10px 10px;
+}
 .logo{
-padding-right:270px;
+padding-right:100px;
 }
 }
 .home{
