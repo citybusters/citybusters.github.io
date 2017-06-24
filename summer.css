@@ -140,7 +140,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top:325px;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -168,7 +168,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   font-size: 50px;
   padding: 8px 12px;
   position: absolute;
-  top: 325px;
+  top: 310px;
   width: 100%;
   text-align: center;
 }
