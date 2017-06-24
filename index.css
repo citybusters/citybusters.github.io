@@ -258,10 +258,11 @@ body {
 .avatar img {
     border-radius: 50%;
     float: left;
-    width: 33%;
+    width: 20%;
 }
 .inner {
     float: left;
+width:33%;
 }
 h5 {
     clear: left;
@@ -272,3 +273,4 @@ h5 {
 .section-heading {
     text-align: center;
 }
+
