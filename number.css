@@ -110,7 +110,7 @@ ul.topnav li a:hover:not(.active) {
     right: 50px;
 }
 .rename{    background-color: #00d0ff;display:none;padding-top:5px; padding-bottom:5px;color:white;margin:0;font-size:40px;}
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 800px) {
     ul.topnav li {
         float: left;
     }
@@ -129,7 +129,7 @@ ul.topnav li a:hover:not(.active) {
     .topnav {
         display: none;
     }
-    .rename{display:block;font-size:30px;padding:12px 0px;height:36px;width:280px;}
+    .rename{display:block;font-size:30px;padding:12px 0px;height:36px;width:auto;}
     .dropbtn {
         display: inline;
         position: absolute;
