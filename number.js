@@ -7,7 +7,6 @@ return rannum;
 var rnum=rndnum();
 // intializing values
 var usertry=document.querySelector("input");
-//console.log(userguess);
 var submit=document.querySelector("button");
 var result=document.querySelector(".result");
 var lowhi=document.querySelector(".lowhi");
@@ -15,6 +14,9 @@ var lastguess=document.querySelector(".lastguess");
 
 var newgame=document.querySelector(".newgame");
 var gamereset=document.querySelector(".gamereset");
+
+
+
 // checking starts
 var guess=1;
 usertry.value="";
@@ -22,6 +24,7 @@ usertry.focus();
 submit.onclick=function(){
 var userguess=usertry.value;
 userguess=Number(userguess);
+console.log(userguess);
 if (guess==1){
 lastguess.textContent="Previous Guess: ";
 }
@@ -47,7 +50,9 @@ newgame.disabled=false;
 }
 
 else if  (userguess===420){result.textContent="the number is " + rnum;
-result.style.backgroundColor="red";usertry.value="";}
+result.style.backgroundColor="red";usertry.value="";
+usertry.focus();
+}
 else if(userguess<rnum){
 result.textContent="Sorry! Wrong Number";
 result.style.backgroundColor="red";
