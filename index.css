@@ -132,7 +132,7 @@ ul.topnav li a:hover:not(.active) {
     .topnav {
         display: none;
     }
-    .rename{display:block;font-size:30px;padding:10px 0px;}
+    .rename{display:block;font-size:30px;padding:10px 0px;height:36px;width:auto;}
     .dropbtn {
         display: inline;
         position: absolute;

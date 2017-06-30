@@ -46,8 +46,10 @@ submit.disabled=true;
 newgame.disabled=false;
 }
 
-else if  (userguess===420){result.textContent="the number is " + rnum;
-result.style.backgroundColor="red";usertry.value="";}
+else if (userguess===420){result.textContent="The number is " +rnum;
+result.style.backgroundColor="red";
+usertry.focus();
+usertry.value="";}
 else if(userguess<rnum){
 result.textContent="Sorry! Wrong Number";
 result.style.backgroundColor="red";
@@ -63,6 +65,7 @@ lowhi.textContent="Your guess is high";
 usertry.value="";
 newgame.disabled=true;
 }
+
 
 else if (userguess===rnum){
 result.textContent="Congratulations! You got it.";

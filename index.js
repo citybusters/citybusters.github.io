@@ -33,7 +33,7 @@ function showSlides(n) {
 			$('body').toggleClass('with--sidebar');
 		});
     
-    $('#site-cache').click(function(e){
+    $('#site-cache').onmouseover(function(e){
       $('body').removeClass('with--sidebar');
     });
 
