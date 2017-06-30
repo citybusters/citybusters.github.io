@@ -259,6 +259,7 @@ body {
     border-radius: 50%;
     float: left;
     width: 75%;
+padding:20px 0;
 }
 .inner {
     float: left;
@@ -275,6 +276,8 @@ h5 {
 .section-heading {
     text-align: center;
 }
-.subt,.su{padding-bottom:1px;}
+.about .row{padding:10px;}
+.subt,.su{padding-bottom:2px;}
 @media only screen and (max-width: 600px) {
-.subt,.su{padding-bottom:1px;}
+.sub{padding-bottom:2px;}}
+.contactForm{position:absolute;top:1500px;right:100px;}
