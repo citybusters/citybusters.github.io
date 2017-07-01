@@ -1,0 +1,14 @@
+div{
+height:25px;
+width: 5%;
+
+float:left;
+}
+h2 {text-align:center;color:grey;}
+h1
+{text-align:center;color:darkgrey;}
+body{
+background-color: white;
+}
+div{position:relative;
+}

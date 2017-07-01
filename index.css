@@ -203,10 +203,11 @@ h2{font-size:50px;}
 footer{width:100%; background-color: #000000;color:#00d0ff;margin-top:30px;font-size:20px;text-align:center;}
 footer a{color:#00d0ff;}
 footer a:hover{color:white;}
+.material-icons.md-36:hover {font-size:36px;}
 @media screen and (max-width: 1500px) and (min-width: 1280px){
 .map{padding-left:10px;border-radius:10%;border:2px solid black;width:475px;}
-.line{width:3px;background-color:black;height:535px;z-index:3;position:absolute;top:1480px;right:870px;display:none;}
-.line2{width:3px;background-color:black;height:535px;z-index:3;position:absolute;top:1480px;right:573px;display:none;}
+.line{width:3px;background-color:black;height:535px;z-index:1;position:absolute;top:1480px;right:830px;display:;}
+.line2{width:3px;background-color:black;height:535px;z-index:1;position:absolute;top:1480px;right:578px;display:;}
 h2{font-size:50px;}
 .contactForm{position:absolute;top:1480px;right:270px;width:40%;font-size:20px;padding-top:20px;}
 .add{position:absolute;top:1480px;right:-10px;width:40%;font-size:20px;padding-left:30px;}
