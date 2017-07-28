@@ -115,7 +115,8 @@ ul.topnav li a:hover:not(.active) {
 }
 .rename{ color:#00d0ff;background-color: #000000;display:none;padding-top:5px; padding-bottom:5px;margin:0;font-size:40px;}
 @media screen and (max-width: 600px) {
-    ul.topnav li {
+   
+	ul.topnav li {
         float: left;
     }
     .con {
