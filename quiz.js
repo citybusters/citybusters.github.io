@@ -112,6 +112,52 @@
       },
       correctAnswer: "c"
     }
+  ],
+question: "Who is the richest man of the world?",
+      answers: {
+        a: "Bill gates",
+        b: "Jeff Bezos",
+        c: "Warren Buffet"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Who is about to buy Snapdeal?",
+      answers: {
+        a: "Amazon",
+        b: "Flipkart",
+        c: "Shopclues"
+      },
+      correctAnswer: "b"
+    },
+	    {
+      question: "One of the world's 7 wonders?",
+      answers: {
+        a: "Eiffel tower",
+        b: "Gateway of India",
+        c: "India gate"
+      },
+      correctAnswer: "a"
+    },
+	    {
+      question: "What is also called as the the 8th continent?",
+      answers: {
+        a: "Euroasia",
+        b: "Zealandia",
+        c: "Indian Subcontinent"
+      },
+      correctAnswer: "b"
+    },  
+    {
+      question: "What is the so-called ruler of the Indian Telecom industry?",
+      answers: {
+        a: "Bharti Airtel",
+        b: "Vodafone",
+        c: "Jio 4G",
+       
+      },
+      correctAnswer: "c"
+    }
   ];
 
   
