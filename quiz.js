@@ -91,7 +91,7 @@
         b: "Bill Gates",
         c: "Carlos Slim"
       },
-      correctAnswer: "c"
+      correctAnswer: "b"
     },
 	    {
       question: "Which country is the World's Biggest Democracy?",
