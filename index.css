@@ -1,0 +1,257 @@
+body {
+    margin: 0 ;
+    background-color:white;
+    color:black;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px 15px 16px;
+    text-decoration: none;
+}
+ul.topnav li.active {
+    background-color: #00d0ff;
+    color: white;
+    padding-bottom: 3px;
+}
+ul.topnav li.active:hover {
+    background-color: #00d0ff;
+    color: white;
+    padding-bottom: 3px;
+}
+ul.topnav li a:hover:not(.active) {
+    background-color: white;
+    color: #00d0ff;
+    box-shadow: 3px 3px 3px #00d0ff;
+}
+.logo {
+    float: left;
+    color: #00d0ff;
+    text-align: center;
+    padding: 0px 450px 0px 16px;
+    font-size: 40px;
+}
+.logo2 {
+    float: left;
+    color: #00d0ff;
+    text-align: center;
+    padding: 0px 600px 0px 16px;
+    font-size: 40px;
+    display: none;
+}
+.con {
+    padding-right: 0px;
+}
+
+.big-name {
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    margin: 0 auto;
+    color: #00d0ff;
+    padding-top: 325px;
+}
+.dropbtn {
+    background-color: #000000;
+    color: #00d0ff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: none;
+ 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00d0ff;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #00d0ff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color:#00d0ff;
+    color: #000000;
+    padding-bottom: 3px;
+}
+.dropdown:hover .dropdown-content {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.rename{ color:#00d0ff;background-color: #000000;display:none;padding-top:5px; padding-bottom:5px;margin:0;font-size:40px;}
+button{backgroundcolor:#00d0ff;border-radius:30%;}
+@media screen and (max-width: 600px) {
+    ul.topnav li {
+        float: left;
+    }
+    .con {
+        padding: 10px 10px;
+    }
+    .gal {
+        padding: 10px 10px;
+    }
+    .active {
+        margin: 10px 10px;
+    }
+    .logo {
+        padding-right: 100px;
+    }
+    .topnav {
+        display: none;
+    }
+    .rename{display:block;font-size:30px;padding:10px 0px;height:36px;width:auto;}
+    .dropbtn {
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .dropdown {
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .renav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #000000;
+    }
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+.home{height:805px;background-image:url("images/citybus.svg"); background-repeat: no-repeat;
+    background-size: cover;}
+h1{width:100%;text-align:center;color:#00d0ff;font-size:50px;position:absolute;top:325px;}
+.avatar img {
+    border-radius: 50%;
+    float: left;
+    width: 75%;
+padding:20px 0;
+}
+.inner {
+    float: left;
+width:33%;
+background-color: #00d0ff;
+text-align:center;
+}
+h5 {
+    clear: left;
+}
+#contact {
+    clear: left;
+}
+.section-heading {
+    text-align: center;
+}
+.myimg{
+width:400px;
+height:400px;
+border-radius:50%;
+margin:25px 0px;
+float:left;
+padding-left:10px;
+}
+.all{
+width:50%;
+margin:0 auto;
+font-size:50px;
+padding-top:90px;
+padding-left:350px;
+}
+.ceo{font-size:100px;}
+.map{padding-left:10px;border-radius:10%;border:2px solid black;}
+.line{width:3px;background-color:black;height:535px;z-index:3;position:absolute;top:1480px;right:1000px;}
+.line2{width:3px;background-color:black;height:535px;z-index:3;position:absolute;top:1480px;right:623px;}
+h2{font-size:50px;}
+.contactForm{position:absolute;top:1480px;right:370px;width:40%;font-size:30px;}
+.add{position:absolute;top:1480px;right:0px;width:40%;font-size:30px;padding-left:30px;}
+.mail{color: #00d0ff;}
+.mail:hover{color:black;font-size:20px;}
+footer{width:100%; background-color: #000000;color:#00d0ff;margin-top:30px;font-size:20px;text-align:center;}
+footer a{color:#00d0ff;}
+footer a:hover{color:white;}
+.material-icons.md-36:hover {font-size:36px;}
+@media screen and (max-width: 1500px) and (min-width: 1280px){
+.map{padding-left:10px;border-radius:10%;border:2px solid black;width:475px;}
+.line{width:3px;background-color:black;height:535px;z-index:1;position:absolute;top:1480px;right:830px;display:;}
+.line2{width:3px;background-color:black;height:535px;z-index:1;position:absolute;top:1480px;right:578px;display:;}
+h2{font-size:50px;}
+.contactForm{position:absolute;top:1480px;right:270px;width:40%;font-size:20px;padding-top:20px;}
+.add{position:absolute;top:1480px;right:-10px;width:40%;font-size:20px;padding-left:30px;}
+.mail{color: #00d0ff;}
+.mail:hover{color:black;font-size:20px;}}
+@media screen and (max-width: 1279px) and (min-width: 768px){
+.topnav{display:none;}
+.rename{display:block;font-size:30px;padding:10px 0px;height:36px;width:auto;}
+ .dropbtn {
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .dropdown {
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .renav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #00d0ff;
+    }
+
+.line ,.line2{display:none;}
+.contactForm{position:absolute;top:2000px;left:10px;width:40%;font-size:20px;padding-top:20px;}
+.add{position:absolute;top:2340px;left:10px;width:40%;font-size:20px;padding-left:0px;}
+footer{width:100%; background-color: #000000;color:#00d0ff;margin-top:600px;font-size:20px;text-align:center;}
+}
+@media screen and (max-width: 750px) and (min-width: 0px){
+.line ,.line2{display:none;}
+.map{padding-left:10px;border-radius:10%;border:2px solid black;width:300px;}
+.contactForm{position:absolute;top:2250px;left:10px;width:40%;font-size:20px;padding-top:20px;}
+.add{position:absolute;top:2600px;left:10px;width:40%;font-size:20px;padding-left:0px;}
+footer{width:100%; background-color: #000000;color:#00d0ff;margin-top:675px;font-size:20px;text-align:center;}
+.myimg{width:300px;height:300px;}
+.all{width:30%;
+margin:0 0;
+font-size:20px;
+padding-top:390px;
+padding-left:10px}
+.ceo{font-size:50px;}
+}

@@ -1,0 +1,47 @@
+body{
+background-color:white;
+button{backgroundcolor:#00d0ff;border-radius:30%;}
+color:grey;
+}
+h1{
+text-align:center;
+}
+.big{
+width:400px;
+height:200px;
+margin:0 auto;
+position:relative;
+
+}
+h2 {text-align:center;color:grey;}
+h1
+{text-align:center;color:darkgrey;}
+.small{
+width:800px;
+height:100px;
+margin:0 auto;
+}
+.big img{
+width:400px;
+height:200px;
+}
+.small img{
+float:left;
+width:200px;
+cursor:pointer;
+}
+.shade{
+height:200px;
+width:400px;
+margin:0 auto;
+position:absolute;
+top:0px;
+left:0px;
+
+}
+button{
+position:absolute;
+top:2px;
+left:2px;
+cursor:pointer;
+}

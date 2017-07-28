@@ -1,0 +1,16 @@
+h1{
+text-align:center;
+}
+button{backgroundcolor:#00d0ff;border-radius:30%;}
+.bigdiv{
+width:500px;
+margin:0 auto;
+}
+body{
+background-image:url("bg.jpeg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+/*background-position:center;*/
+background-size:cover;
+}
+.material-icons.md-48 {font-size:48px; }
