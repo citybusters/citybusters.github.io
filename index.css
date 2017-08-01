@@ -108,7 +108,7 @@ ul.topnav li a:hover:not(.active) {
     right: 50px;
 }
 .rename{ color:#00d0ff;background-color: #000000;display:none;padding-top:5px; padding-bottom:5px;margin:0;font-size:40px;}
-button{backgroundcolor:#00d0ff;border-radius:30%;}
+button{color:#00d00gg;border-radius:10%;}
 @media screen and (max-width: 600px) {
     ul.topnav li {
         float: left;

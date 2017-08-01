@@ -1,8 +1,7 @@
 body{
-background-color:white;
-button{backgroundcolor:#00d0ff;border-radius:30%;}
-color:grey;
-}
+background-color:white;color:grey;}
+button{color:#00d00gg;border-radius:10%;}
+
 h1{
 text-align:center;
 }

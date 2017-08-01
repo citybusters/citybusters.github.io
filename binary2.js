@@ -1,20 +1,11 @@
-var a =Number(prompt("Enter the number to be converted :"));
-var b=0;
+var usertry=document.querySelector("input");
+var submit=document.querySelector("button");
+var result=document.querySelector(".result");
+submit.onclick=function(){
+var a =Number(usertry.value);
+var b=a;
 
-while(a>0){
-b=a%2;
-console.log("ream"+b);
-a= parseInt(a/2);
-console.log("div"+a);
-var s=s+b;
-console.log("abc"+s);
+var b=parseInt(a).toString(2);
+result.textContent="The binary code for "+a+" is "+b;
+//document.write("The binary code for "+a+" is "+b);
 }
-alert(s);
-
-while (s>0)
-{
-var n = s % 10;
-var r = r * 10 + n ;
-s = parseInt(s/10);
-}
-alert("here is your binary code "+r);
