@@ -1,0 +1,109 @@
+*{box-sizing: border-box}
+
+@red: #e74c3c;
+@blue: #2980b9;
+@orange: #f39c12;
+@green: #27ae60;
+@white: #ecf0f1;
+@black: #19191b;
+@drkblue: #2c3e50;
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: @drkblue;
+  font-size: 100%;
+  color: @white;
+}
+
+.wrapper {
+  position: relative;
+  padding: 1px 0 0;
+}
+
+header {
+  transition: all .8s ease;
+  background: @orange;
+  position: fixed;
+  padding: 1em;
+  width: 100%;
+  left: 0;
+  top: 0;
+  
+}
+
+.site-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 1em;
+  
+  @media screen and (min-width: 440px) {
+    line-height: .85em + .5em + .7em;
+    display: inline;
+    float: left;
+    margin: 0;
+  }
+}
+
+.primary-nav {
+  border: 1px solid @white;
+  height: .85em + .5em + .7em;
+  text-align: center;
+  overflow: hidden;
+  
+  ul {
+    transition: all .5s ease;
+    position: relative;
+  }
+  li {
+    margin: 0; 
+  }
+  a {
+    transition: color .4s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .7em 1.5em .5em;
+    font-size: .85em;
+    display: block;
+    color: @white;
+  }
+  
+  @media screen and (min-width: 440px) {
+   float: right;
+  }
+  
+  &:hover {
+    overflow: visible;
+    border-color: rgba(0,0,0, 0);
+    
+    & > ul {
+      top: 0!important;
+      background: @white;
+    }
+    
+    a {
+      color: @black;
+    }
+  }
+}
+
+
+.page {
+  padding: 6em 2em 4em;
+  min-height: 600px;
+  height: 100vh;
+  width: 100%;
+  
+  p {
+    line-height: 1.2em;
+    max-width: 50%;  
+  }
+  
+  @media screen and (min-width: 440px) {
+    padding: 4em 2em;
+  } 
+}
+
+.page-title {
+  margin: 1em 0 .8em;
+  font-size: 1.3em
+}

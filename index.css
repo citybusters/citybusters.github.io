@@ -8,12 +8,14 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: rgb(0,0,0);
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 2;
 }
+
+
 ul.topnav li {
     float: left;
 }
@@ -241,6 +243,7 @@ h2{font-size:50px;}
 footer{width:100%; background-color: #000000;color:#00d0ff;margin-top:600px;font-size:20px;text-align:center;}
 }
 @media screen and (max-width: 750px) and (min-width: 0px){
+.home{height:805px;background-image:url("images/back2.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment:fixed;  background-origin: padding-box;}
 .line ,.line2{display:none;}
 .map{padding-left:10px;border-radius:10%;border:2px solid black;width:300px;}
 .contactForm{position:absolute;top:2250px;left:10px;width:40%;font-size:20px;padding-top:20px;}
